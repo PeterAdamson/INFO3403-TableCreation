@@ -1,0 +1,6 @@
+﻿CREATE TABLE Borrow_AMunro (CHECK (branch = 'AMunro')) INHERITS (borrow);
+CREATE TABLE borrow_APurdy (CHECK (branch = 'APurdy')) INHERITS (borrow);
+CREATE TABLE borrow_FMowat (CHECK (branch = 'FMowat')) INHERITS (borrow);
+CREATE TABLE borrow_LCohen (CHECK (branch = 'LCohen')) INHERITS (borrow);
+CREATE TABLE borrow_MAtwoord (CHECK (branch = 'MAtwoord')) INHERITS (borrow);
+CREATE TABLE borrow_MOndaatje (CHECK (branch = 'MOndaatje')) INHERITS (borrow);
